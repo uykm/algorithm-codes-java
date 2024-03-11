@@ -1,3 +1,3 @@
-# Algorithm-Java
+# Algorithm-Codes-_Java
 
-🔥 Java를 이용하여 알고리즘 문제르 해결한 코드 저장소 ☃️
+🔥 Java를 이용하여 알고리즘 문제를 해결한 코드 저장소 ☃️
