@@ -1,10 +1,9 @@
 class Solution {
     public String solution(String phone_number) {
-        String answer = "";
-        
-        StringBuilder sb = new StringBuilder();
+    
         boolean flag = false; // 4자리 남았는지 체크
-        int cnt = 0;
+        int cnt = 0; // 체크한 문자 수
+        StringBuilder sb = new StringBuilder();
         
         for (char ch : phone_number.toCharArray()) {
             
