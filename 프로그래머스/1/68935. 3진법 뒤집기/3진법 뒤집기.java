@@ -18,11 +18,10 @@ class Solution {
         
         int tmp = 1;
         for (char ch : ternary.toCharArray()) {
-            int curExp = ch - '0';
-            answer += tmp * curExp;
+            int curCoef = ch - '0';
+            answer += tmp * curCoef;
             tmp *= 3;
         }
-        
         
         return answer;
     }
