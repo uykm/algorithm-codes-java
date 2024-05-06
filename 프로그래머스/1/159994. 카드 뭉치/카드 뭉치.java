@@ -4,7 +4,7 @@ class Solution {
         int index1 = 0;
         int index2 = 0;
         
-        // cards1 순서대로 나오는지 체크
+        // 순서대로 나오는지 cards1, cards2 각각 체크
         for (int i = 0; i < goal.length; ++i) {
             if (index1 < cards1.length && cards1[index1].equals(goal[i])) {
                 index1++;
