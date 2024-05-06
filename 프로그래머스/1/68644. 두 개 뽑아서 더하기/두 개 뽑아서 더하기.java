@@ -13,6 +13,7 @@ class Solution {
         }
             
         answer = set.stream().mapToInt(Integer::intValue).toArray();
+        // Arrays.sort(answer);
         
         return answer;
     }
