@@ -7,10 +7,7 @@ class Solution {
         
         Set<Integer> set = new HashSet<>();
         
-        for (int num : nums) {
-            set.add(num);
-        }
-        
+        for (int num : nums) { set.add(num); }
         
         return set.size() > oneHalf ? oneHalf : set.size();
     }
