@@ -4,24 +4,20 @@ class Solution {
         
         for (int i = 1; i <= number; ++i) {
             int divCnt = divisorCount(i);
-            
-            if (divCnt > limit) {
-                weightOfIron += power;
-                continue;
-            }
-            weightOfIron += divCnt;
+            weightOfIron += divCnt > limit ? power : divCnt;
         }
         
         return weightOfIron;
     }
     
     public int divisorCount(int num) {
-        int cnt = 1;
-        if (num == 1) {
-            return cnt;
-        }
-        for (int i = 1; i <= num/2; ++i) {
-            if (num % i == 0) cnt += 1;
+        int cnt = 0;
+        for (int i = 1; i <= (int)num / i; ++i) {
+			if (i * i == num) {
+				cnt++;
+			} else if (num % i == 0) {
+		        cnt += 2;
+			}
         }
         return cnt;
     }
