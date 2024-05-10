@@ -12,7 +12,7 @@ class Solution {
     
     public int divisorCount(int num) {
         int cnt = 0;
-        for (int i = 1; i <= (int)num / i; ++i) {
+        for (int i = 1; i <= (int)Math.sqrt(num); ++i) {
 			if (i * i == num) {
 				cnt++;
 			} else if (num % i == 0) {
