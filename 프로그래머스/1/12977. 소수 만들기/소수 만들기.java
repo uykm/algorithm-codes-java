@@ -18,7 +18,7 @@ class Solution {
     }
     
     public boolean isPrime(int sum) {
-        for (int i = 2; i < sum/2; ++i) {
+        for (int i = 2; i <= (int)sum / i; ++i) {
             if (sum % i == 0) {
                 return false;
             }            
