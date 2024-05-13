@@ -4,39 +4,32 @@ class Solution {
         String[] fourWords = {"aya", "ye", "woo", "ma"};
         
         for (String b : babbling) {
-            int cantSpeakStrLen = b.length();
-            String strToCheckSpeakAgain = "";
-            String strToCompare1 = "";
-            String strToCompare2 = "";
-            for (int i = 0; i < b.length(); ++i) {
-                int startIndex = i;
-                if (startIndex + 2 <= b.length()) {
-                    strToCompare1 = b.substring(startIndex, startIndex + 2);
-                } else {
-                    strToCompare1 = "";
-                }
-                if (startIndex + 3 <= b.length()) {
-                    strToCompare2 = b.substring(startIndex, startIndex + 3);
-                } else {
-                    strToCompare2 = "";
-                }
-                for (String fw : fourWords) {
-                    if (strToCompare1.equals(strToCheckSpeakAgain) 
-                        || strToCompare2.equals(strToCheckSpeakAgain)
-                       && !strToCheckSpeakAgain.equals("")) {
-                        strToCheckSpeakAgain = "";
+            boolean isValid = true;
+            String lastWord = "";  // 마지막으로 체크한 발음 가능한 단어을 저장
+            int i = 0;
+            
+            while (i < b.length() && isValid) {
+                boolean matched = false;
+                for (String word : fourWords) {
+                    if (i + word.length() <= b.length() && b.startsWith(word, i)) {
+                        if (word.equals(lastWord)) {
+                            // 연속된 발음 발견
+                            isValid = false;
+                            break;
+                        }
+                        lastWord = word;  // 가장 최근에 매칭한 단어로 업데이트
+                        i += word.length();  // 발음한 단어 길이만큼 인덱스 이동
+                        matched = true;
                         break;
                     }
-                    if (strToCompare1.equals(fw) || strToCompare2.equals(fw)) {
-                        strToCheckSpeakAgain = fw;
-                        i += fw.length() - 1;
-                        cantSpeakStrLen -= fw.length();
-                        break;
-                    }
+                }
+                
+                if (!matched) {  // 매칭되는 발음이 없으면 종료
+                    isValid = false;
                 }
             }
             
-            if (cantSpeakStrLen == 0) {
+            if (isValid && i == b.length()) {  // 모두 가능한 발음들로 이뤄진 경우
                 answer++;
             }
         }
