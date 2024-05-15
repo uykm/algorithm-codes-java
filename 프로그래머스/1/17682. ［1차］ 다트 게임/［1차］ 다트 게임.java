@@ -16,7 +16,9 @@ class Solution {
                 scoreBuilder.append(dartResult.charAt(i));
                 i++;
             }
-            int score = Integer.parseInt(scoreBuilder.toString()); // Integer.valueOf()
+            int score = Integer.parseInt(scoreBuilder.toString()); 
+            // Integer.parseInt() : 기본형으로 반환
+            // Integer.valueOf() : 참조형으로 반환
             
             // 보너스 계산
             char bonus = dartResult.charAt(i);
