@@ -3,7 +3,7 @@ import java.util.*;
 class Solution {
     public int solution(String dartResult) {
         int totalScore = 0;
-        int[] scores = new int[3];  // 세 번의 점수를 저장할 배열
+        int[] scores = new int[3];
         int index = 0;              // 현재 점수 인덱스
         
         int length = dartResult.length();
@@ -16,7 +16,7 @@ class Solution {
                 scoreBuilder.append(dartResult.charAt(i));
                 i++;
             }
-            int score = Integer.parseInt(scoreBuilder.toString());
+            int score = Integer.parseInt(scoreBuilder.toString()); // Integer.valueOf()
             
             // 보너스 계산
             char bonus = dartResult.charAt(i);
