@@ -48,7 +48,7 @@ class Solution {
     static class FailRateWithStageNum {
         int numerator; // 분자
         int denominator; // 분모
-        int stageNum;
+        int stageNum; // 스테이지 번호
 
         public FailRateWithStageNum(int stageNum, int numerator, int denominator) {
             this.numerator = numerator;
