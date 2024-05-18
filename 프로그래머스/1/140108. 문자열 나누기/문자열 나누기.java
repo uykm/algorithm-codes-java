@@ -5,39 +5,27 @@ class Solution {
         int answer = 0;
         
         char x = ' ';
-        int xCnt = 0;
-        int notXCnt = 0;
+        int xCnt = 0; int notXCnt = 0;
         
-        Queue<Character> queue = new LinkedList<>();
-        for (int i = 0; i < s.length(); i++) {
-            queue.add(s.charAt(i));
-        }
-        
-        while(!queue.isEmpty()) {
-            if(xCnt == notXCnt && x != ' ') {
-                x = ' ';
-                answer++;
-                continue;
-            }
-            
+        for (char ch : s.toCharArray()) {
             if (x == ' ') {
-                x = queue.poll();
+                x = ch;
                 xCnt++;
-                continue;
-            }
-            
-            char tmp = queue.poll();
-            
-            if(tmp == x) {
+            } else if(x == ch) {
                 xCnt++;
             } else {
                 notXCnt++;
             }
+            
+            if (xCnt == notXCnt && x != ' ') {
+                x = ' ';
+                xCnt = 0; notXCnt = 0;
+                answer++;
+            }
         }
         
-        answer++;
+        if(xCnt != 0) answer++;
 
-        
         return answer;
     }
 }
