@@ -1,29 +1,45 @@
-import java.util.*;
+import java.util.*;   
+import java.util.stream.*;
 
 class Solution {
     public String solution(String X, String Y) {
-        StringBuilder sb = new StringBuilder();
-        PriorityQueue<Integer> pq1 = new PriorityQueue<>(Collections.reverseOrder());
-        PriorityQueue<Integer> pq2 = new PriorityQueue<>(Collections.reverseOrder());
-
-        for (int i=0; i<X.length(); i++) {
-            pq1.offer(X.charAt(i) - '0');
+        boolean isAllZero = false;
+        HashMap<Character, Integer> yMap = new HashMap<>();
+        
+        for (char c : X.toCharArray()) {
+            yMap.put(c, yMap.getOrDefault(c, 0) + 1);
         }
-        for (int i=0; i<Y.length(); i++) {
-            pq2.offer(Y.charAt(i) - '0');
-        }
-
-        while (!pq1.isEmpty() && !pq2.isEmpty()) {
-            if (pq1.peek() == pq2.peek()) {
-                sb.append(String.valueOf(pq1.poll()));
-                pq2.poll();
-            } else if (pq1.peek() > pq2.peek()) {
-                pq1.poll();
-            } else {
-                pq2.poll();
+        
+        List<Integer> list = new ArrayList<>();
+        
+        for (char c : Y.toCharArray()) {
+            if (yMap.getOrDefault(c, 0) > 0) {
+                yMap.put(c, yMap.get(c) - 1);
+                list.add(c - '0');
             }
         }
-
-        return sb.toString().equals("") ? "-1" : sb.toString().charAt(0)=='0' ? "0" : sb.toString();
+        
+        Collections.sort(list, Collections.reverseOrder());
+    
+        // ListIterator<Integer> iterator = list.listIterator();
+        // while (iterator.hasNext()){
+        //     if (iterator.next() != 0) {
+        //         return list.stream()
+        //            .map(String::valueOf) // Integer를 String으로 변환
+        //            .collect(Collectors.joining()); // 문자열로 결합
+        //     }
+        //     isAllZero = true;
+        // }
+        
+        for (Integer num : list) {
+            if (num != 0) {
+                return list.stream()
+                           .map(String::valueOf) // Integer를 String으로 변환
+                           .collect(Collectors.joining()); // 문자열로 결합
+            }
+            isAllZero = true;
+        }
+        
+        return isAllZero == true ? "0" : "-1";
     }
 }
