@@ -3,50 +3,28 @@ import java.util.stream.*;
 
 class Solution {
     public int[][] solution(int[][] data, String ext, int val_ext, String sort_by) {
-        int e = 0;
-        int s = 0;
+        int extIdx = 0, sbIdx = 0;
         List<int[]> list = new ArrayList<>();
+        String[] criteria = {"code", "date", "maximum", "remain"};
         
-        switch (ext) {
-            case "code" : 
-                e = 0;
-                break;
-            case "date" :
-                e = 1;
-                break;
-            case "maximum" :
-                e = 2;
-                break;
-            case "remain" :
-                e = 3;
-                break;
+        for (int i = 0; i < criteria.length; ++i) {
+            if (criteria[i].equals(ext)) extIdx = i;
+            if (criteria[i].equals(sort_by)) sbIdx = i;
         }
         
         int size = 0;
         
         for (int[] d : data) {
-            if (d[e] < val_ext) {
+            if (d[extIdx] < val_ext) {
                 list.add(d);
                 size++;
             }
         }
         
         int[][] answer = new int[size][4];
+        final int SB_IDX = sbIdx;
         
-        switch (sort_by) {
-            case "code" : 
-                list.sort((a, b) -> a[0] - b[0]);
-                break;
-            case "date" :
-                list.sort((a, b) -> a[1] - b[1]);
-                break;
-            case "maximum" :
-                list.sort((a, b) -> a[2] - b[2]);
-                break;
-            case "remain" :
-                list.sort((a, b) -> a[3] - b[3]);
-                break;
-        }
+        list.sort((a, b) -> a[SB_IDX] - b[SB_IDX]);
         
         for (int i = 0; i < list.size(); ++i) {
             answer[i] = list.get(i);
