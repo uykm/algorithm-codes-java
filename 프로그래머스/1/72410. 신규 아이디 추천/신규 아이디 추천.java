@@ -1,35 +1,50 @@
 class Solution {
     public String solution(String new_id) {
         StringBuilder sb = new StringBuilder();
-        char prev = '?';
+        boolean prevDot = false;
+
+        // 1단계, 2단계, 3단계: 문자를 소문자로 변환, 허용된 문자만 사용, 연속된 마침표 제거
         for (int i = 0; i < new_id.length(); i++) {
             char ch = new_id.charAt(i);
-            if (Character.isAlphabetic(ch) || Character.isDigit(ch) || ch == '-' || ch == '_' || (ch == '.' && prev != '.')) {
-                sb.append(Character.toLowerCase(ch));
-                prev = ch;
+            if (Character.isUpperCase(ch)) {
+                ch = Character.toLowerCase(ch);
+            }
+            if (Character.isLowerCase(ch) || Character.isDigit(ch) || ch == '-' || ch == '_') {
+                sb.append(ch);
+                prevDot = false;
+            } else if (ch == '.' && !prevDot) {
+                sb.append(ch);
+                prevDot = true;
             }
         }
 
-        int start = 0, end = sb.length();
-        if (sb.charAt(0) == '.' && end != 1)
-            start = 1;
-        if (sb.charAt(end-1) == '.')
-            end--;
-        String answer = sb.substring(start, end);
-
-        if (answer.equals(""))
-            answer = "a";
-
-        if (answer.length() > 15)
-            answer = answer.charAt(14) == '.' ? answer.substring(0, 14)
-                                              : answer.substring(0, 15);
-        
-        char tail = answer.charAt(answer.length()-1);
-        while (answer.length() < 3) {
-            answer += tail;
+        // 4단계: 마침표가 처음이나 끝에 위치한다면 제거
+        if (sb.length() > 0 && sb.charAt(0) == '.') {
+            sb.deleteCharAt(0);
+        }
+        if (sb.length() > 0 && sb.charAt(sb.length() - 1) == '.') {
+            sb.deleteCharAt(sb.length() - 1);
         }
 
-        return answer;
+        // 5단계: 빈 문자열이라면 "a" 대입
+        if (sb.length() == 0) {
+            sb.append('a');
+        }
+
+        // 6단계: 길이가 16자 이상이면 첫 15개의 문자를 제외한 나머지 문자들을 모두 제거
+        if (sb.length() > 15) {
+            sb.setLength(15);
+            if (sb.charAt(14) == '.') {
+                sb.deleteCharAt(14);
+            }
+        }
+
+        // 7단계: 길이가 2자 이하라면, 마지막 문자를 길이가 3이 될 때까지 반복해서 붙임
+        while (sb.length() < 3) {
+            sb.append(sb.charAt(sb.length() - 1));
+        }
+
+        return sb.toString();
     }
 }
 
