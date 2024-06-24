@@ -42,7 +42,6 @@ class Solution {
             } else {
                 dateInt[1] = month + term;
             }
-            System.out.println(dateInt[0] + " " + dateInt[1]);
             
             for (int j = 0; j < 3; ++j) {
                 if (dateInt[j] < tdInt[j]) { // 유효 기간이 끝난 경우
