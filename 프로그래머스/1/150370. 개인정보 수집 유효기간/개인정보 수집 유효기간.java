@@ -25,17 +25,7 @@ class Solution {
             }
         }
         
-        Collections.sort(list);
-        
-        // 정수형 배열 생성
-        int[] answer = new int[list.size()];
-        
-        // 리스트의 요소를 배열에 복사
-        for (int i = 0; i < list.size(); i++) {
-            answer[i] = list.get(i);
-        }
-        
-        return answer;
+        return list.stream().mapToInt(integer -> integer).toArray();
     }
     
     private int getDate(String today) {
