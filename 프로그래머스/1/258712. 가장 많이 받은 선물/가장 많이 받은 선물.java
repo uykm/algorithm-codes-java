@@ -8,11 +8,10 @@ class Solution {
         
         for (String sender : friends) {
             sendMap.putIfAbsent(sender, new HashMap<String, Integer>());
-            friendToPoint.put(sender, 0);
+            friendToPoint.put(sender, 0); // 모든 사람의 선물 지수를 0으로 세팅 -> 선물을 주지도 받지도 않은 사람을 따로 예외 처리해줄 필요 X
             for (String receiver : friends) {
                 if (receiver.equals(sender)) continue;
-                // 선물을 주고받은 기록이 없더라도 횟수를 0으로 초기화
-                sendMap.get(sender).put(receiver, 0);
+                sendMap.get(sender).put(receiver, 0); // 선물을 주고받은 기록이 없더라도 0으로 초기화
             }
         }
         
