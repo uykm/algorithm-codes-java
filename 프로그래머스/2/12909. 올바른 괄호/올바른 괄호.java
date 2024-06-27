@@ -1,17 +1,40 @@
+// class Solution {
+//     boolean solution(String s) {
+//         boolean answer = true;
+
+//         int zero = 0;
+//         for (char c : s.toCharArray()) {
+//             if (zero < 0) return false;
+            
+//             if (c == '(') zero++;
+//             else if (c == ')') zero--;
+//         }
+        
+//         if (zero != 0) answer = false;
+
+//         return answer;
+//     }
+// }
+
+import java.util.*;
+
 class Solution {
     boolean solution(String s) {
-        boolean answer = true;
+        boolean answer = false;
+        Stack<Integer> st = new Stack<>();
 
-        int zero = 0;
         for (char c : s.toCharArray()) {
-            if (zero < 0) return false;
-            
-            if (c == '(') zero++;
-            else if (c == ')') zero--;
+            if (c == '(') {
+                st.push(1);
+            } else if (c == ')') {
+                if (st.isEmpty()) return answer;
+                else st.pop();
+            }
         }
-        
-        if (zero != 0) answer = false;
+
+        if(st.isEmpty()) answer = true;
 
         return answer;
-    }
+    }   
+
 }
