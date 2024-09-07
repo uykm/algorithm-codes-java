@@ -14,9 +14,7 @@ class Solution
             }
             stack.push(ch);
         }
-        
-        if (stack.empty()) return 1;
 
-        return 0;
+        return stack.empty() ? 1 : 0;
     }
 }
