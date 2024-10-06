@@ -1,19 +1,18 @@
 import java.util.*;
-import java.lang.*;
 import java.io.*;
 
 class Main {
-	public static void main (String[] args) throws java.lang.Exception {
-	    
-	    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	    StringTokenizer st = new StringTokenizer(br.readLine());
-	    
-	    int N = Integer.parseInt(st.nextToken()); // 수의 개수
+    public static void main (String[] args) throws java.lang.Exception {
+        
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        
+        int N = Integer.parseInt(st.nextToken()); // 수의 개수
         int M = Integer.parseInt(st.nextToken()); // 구간 합을 구해야 하는 횟수
         
-        int[] sumArr = new int[N + 1]; // sumArr[k] 1번째 숫자부터 k번째 숫자까지의 합
         st = new StringTokenizer(br.readLine());
         
+        int[] sumArr = new int[N + 1]; // sumArr[k] 1번째 숫자부터 k번째 숫자까지의 합
         for (int i = 1; i < N + 1; ++i) {
             sumArr[i] = Integer.parseInt(st.nextToken());
             sumArr[i] += sumArr[i-1];
@@ -28,6 +27,6 @@ class Main {
             
             M--;
         }
-	    
+        
 	}
 }
