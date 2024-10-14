@@ -57,7 +57,7 @@ public class Main {
     
     // 기수 정렬 메서드
     public static void radixSort(int[] arr) {
-        // // 배열을 양수 그룹과 음수 그룹으로 나눈다.
+        // 배열을 양수 그룹과 음수 그룹으로 나눈다.
         int negativeCount = 0;
         int positiveCount = 0;
         
@@ -92,6 +92,7 @@ public class Main {
         }
         
         // 각 자리수를 기준으로 정렬 (양수와 음수 따로)
+        // `max / exp > 0` -> 최대값의 자리수를 넘어가지 않도록
         for (int exp = 1; max / exp > 0; exp *= 10) {
             countingSort(positives, exp); // 양수에 대해 정렬
             countingSort(negatives, exp); // 음수에 대해 정렬
