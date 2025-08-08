@@ -33,12 +33,13 @@ public class Main {
             dp[1][1] = stickers[1][1];
 
             for (int k = 2; k <= col; ++k) {
-                for (int j = 0; j < row; ++j) {
-                    dp[j][k] = Math.max(dp[j][k-2] + stickers[(j+1) % 2][k-1] + stickers[j][k],
-                            dp[(j+1) % 2][k-2] + stickers[j][k-1]);
-                    dp[j][k] = Math.max(dp[j][k], dp[(j+1) % 2][k-2] + stickers[j][k]);
-                }
-            }
+    for (int j = 0; j < row; ++j) {
+        dp[j][k] = Math.max(
+            dp[(j+1) % 2][k-1] + stickers[j][k],  // 이전 열 반대편
+            dp[(j+1) % 2][k-2] + stickers[j][k]   // 전전 열 반대편
+        );
+    }
+}
 
             int max = Math.max(dp[0][col], dp[1][col]);
             System.out.println(max);
