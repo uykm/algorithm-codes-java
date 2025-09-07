@@ -19,13 +19,12 @@ public class Main {
 
         edgeList = new ArrayList<>();
 
-        // 간선 정보 입력 및 초기화
         for (int i = 0; i < E; i++) {
             st = new StringTokenizer(br.readLine());
-            int src = Integer.parseInt(st.nextToken());
-            int dest = Integer.parseInt(st.nextToken());
+            int start  = Integer.parseInt(st.nextToken());
+            int end = Integer.parseInt(st.nextToken());
             int weight = Integer.parseInt(st.nextToken());
-            edgeList.add(new Edge(src, dest, weight));
+            edgeList.add(new Edge(start, end, weight));
         }
 
         // 벨만포드 실행
@@ -47,10 +46,10 @@ public class Main {
     }
 
     static class Edge {
-        int src, dest, weight;
-        Edge(int src, int dest, int weight) {
-            this.src = src;
-            this.dest = dest;
+        int start, end, weight;
+        Edge(int start, int end, int weight) {
+            this.start = start;
+            this.end = end;
             this.weight = weight;
         }
     }
@@ -61,20 +60,20 @@ public class Main {
         Arrays.fill(dist, INF);
         dist[1] = 0;
 
-        // (V-1)번 간선 완화 반복
+        // 모든 간선 검사를 V-1번 반복해서 거리 갱신
         for (int i = 0; i < V - 1; i++) {
             for (Edge edge : edgeList) {
-                if (dist[edge.src] != INF &&
-                        dist[edge.src] + edge.weight < dist[edge.dest]) {
-                    dist[edge.dest] = dist[edge.src] + edge.weight;
+                if (dist[edge.start] != INF &&
+                        dist[edge.start] + edge.weight < dist[edge.end]) {
+                    dist[edge.end] = dist[edge.start] + edge.weight;
                 }
             }
         }
 
-        // 음수 사이클 확인
+        // 모든 간선을 한 번 더 검사해서 거리가 갱신되는 경우가 있으면 음수 사이클 존재
         for (Edge edge : edgeList) {
-            if (dist[edge.src] != INF &&
-                    dist[edge.src] + edge.weight < dist[edge.dest]) {
+            if (dist[edge.start] != INF &&
+                    dist[edge.start] + edge.weight < dist[edge.end]) {
                 isMinusCycle = true;
                 return;
             }
