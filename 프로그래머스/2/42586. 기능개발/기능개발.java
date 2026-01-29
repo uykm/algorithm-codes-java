@@ -13,10 +13,10 @@ class Solution {
             int requiredDate = (int) Math.ceil(remain);
             
             // 배포 시작: (아직 완료처리 되지 않은 프로젝트 ~ i-1 번째 프로젝트)
+            // passedDate.peek(): 현재 배포 대기중인 프로세스 가장 앞에 있는 프로세스를 개발하는 데 걸린 시간
             if (!passedDate.isEmpty() && passedDate.peek() < requiredDate) {
-                // passedDate.peek(): 현재 배포 대기중인 프로젝트 중 개발 완료까지 가장 오래 걸린 시간
-                // passedDate.size(): 배포를 기다리고 있는 개발 완료된 프로젝트 수
-                answer.add(passedDate.size()); 
+                int deployedProcessCnt = passedDate.size();
+                answer.add(deployedProcessCnt);
                 passedDate.clear();
             }
             
