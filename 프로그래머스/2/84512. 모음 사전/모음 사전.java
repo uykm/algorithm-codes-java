@@ -9,7 +9,7 @@ class Solution {
         int answer = 0;
         
         dict = new ArrayList<>();
-        fillDict("", 0);
+        fillDict(new StringBuilder(), 0);
         
         for (String w : dict) {
             if (w.equals(word)) {
@@ -21,15 +21,14 @@ class Solution {
         return answer;
     }
     
-    static void fillDict(String word, int length) {
-        dict.add(word);
-        StringBuilder sb = new StringBuilder();
+    static void fillDict(StringBuilder sb, int length) {
+        dict.add(sb.toString());
         if (length == 5) return;
-        
+
         for (int i = 0; i < 5; ++i) {
-            fillDict(sb.append(word).append(words[i]).toString(), length + 1);
-            sb.setLength(0);
+            sb.append(words[i]);
+            fillDict(sb, length + 1);
+            sb.deleteCharAt(sb.length() - 1); // 되돌리기
         }
-            
     }
 }
