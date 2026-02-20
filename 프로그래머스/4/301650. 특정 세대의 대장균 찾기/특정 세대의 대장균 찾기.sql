@@ -1,0 +1,13 @@
+SELECT
+    c.ID
+FROM
+    ECOLI_DATA c
+JOIN 
+    ECOLI_DATA p
+    ON c.PARENT_ID = p.ID
+JOIN
+    ECOLI_DATA g
+    ON p.PARENT_ID = g.ID
+WHERE
+    g.PARENT_ID IS NULL
+    
