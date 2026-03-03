@@ -1,0 +1,30 @@
+WITH CTN1 AS (
+    SELECT
+        APNT_YMD,
+        APNT_NO,
+        PT_NO,
+        MCDP_CD,
+        MDDR_ID
+    FROM APPOINTMENT
+    WHERE APNT_YMD LIKE '2022-04-13%'
+        AND APNT_CNCL_YN = 'N'
+        AND MCDP_CD = 'CS'
+)
+SELECT
+    C.APNT_NO,
+    P.PT_NAME,
+    P.PT_NO,
+    C.MCDP_CD,
+    D.DR_NAME,
+    C.APNT_YMD
+FROM CTN1 C
+JOIN PATIENT P
+    ON (C.PT_NO = P.PT_NO)
+JOIN DOCTOR D
+    ON (C.MDDR_ID = D.DR_ID)
+ORDER BY
+    C.APNT_YMD;
+
+
+
+    
