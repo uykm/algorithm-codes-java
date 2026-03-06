@@ -10,4 +10,3 @@ JOIN
     ON p.PARENT_ID = g.ID
 WHERE
     g.PARENT_ID IS NULL
-    
