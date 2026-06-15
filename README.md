@@ -12,6 +12,7 @@
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0189-rotate-array](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
+| [0238-product-of-array-except-self](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0274-h-index](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0274-h-index/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0380-insert-delete-getrandom-o1/) | Medium |
 ## Two Pointers
@@ -56,4 +57,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0380-insert-delete-getrandom-o1/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0238-product-of-array-except-self](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 <!---LeetCode Topics End-->
