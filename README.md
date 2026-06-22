@@ -12,6 +12,7 @@
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0134-gas-station](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0134-gas-station/) | Medium |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0189-rotate-array](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0274-h-index](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0274-h-index/) | Medium |
@@ -21,6 +22,7 @@
 | ------- | ------- |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0189-rotate-array](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
 ## Math
 | Problem Name | Difficulty |
@@ -72,4 +74,8 @@
 | [0006-zigzag-conversion](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0006-zigzag-conversion/) | Medium |
 | [0012-integer-to-roman](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0012-integer-to-roman/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 <!---LeetCode Topics End-->
