@@ -69,6 +69,7 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0006-zigzag-conversion](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0006-zigzag-conversion/) | Medium |
 | [0012-integer-to-roman](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0012-integer-to-roman/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
 <!---LeetCode Topics End-->
