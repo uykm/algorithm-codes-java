@@ -61,6 +61,7 @@
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0012-integer-to-roman](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0012-integer-to-roman/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0380-insert-delete-getrandom-o1/) | Medium |
 ## Design
@@ -79,6 +80,7 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0006-zigzag-conversion](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0006-zigzag-conversion/) | Medium |
 | [0012-integer-to-roman](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0012-integer-to-roman/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
@@ -90,5 +92,6 @@
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0209-minimum-size-subarray-sum/) | Medium |
 <!---LeetCode Topics End-->
