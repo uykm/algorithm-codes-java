@@ -16,6 +16,7 @@
 | [0134-gas-station](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0134-gas-station/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0189-rotate-array](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
+| [0209-minimum-size-subarray-sum](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0209-minimum-size-subarray-sum/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0274-h-index](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0274-h-index/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0380-insert-delete-getrandom-o1/) | Medium |
@@ -73,6 +74,7 @@
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0209-minimum-size-subarray-sum/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -84,4 +86,9 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
+| [0209-minimum-size-subarray-sum](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0209-minimum-size-subarray-sum/) | Medium |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0209-minimum-size-subarray-sum/) | Medium |
 <!---LeetCode Topics End-->
