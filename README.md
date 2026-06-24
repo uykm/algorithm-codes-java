@@ -11,6 +11,7 @@
 | [0015-3sum](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0015-3sum/) | Medium |
 | [0036-valid-sudoku](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0045-jump-game-ii](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
+| [0054-spiral-matrix](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 | [0055-jump-game](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
@@ -100,4 +101,9 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0036-valid-sudoku](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
+| [0054-spiral-matrix](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0054-spiral-matrix](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 <!---LeetCode Topics End-->
