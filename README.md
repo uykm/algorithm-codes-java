@@ -11,6 +11,7 @@
 | [0015-3sum](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0015-3sum/) | Medium |
 | [0036-valid-sudoku](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0045-jump-game-ii](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
+| [0048-rotate-image](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 | [0055-jump-game](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
@@ -35,6 +36,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0012-integer-to-roman](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0012-integer-to-roman/) | Medium |
+| [0048-rotate-image](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0189-rotate-array](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0380-insert-delete-getrandom-o1/) | Medium |
 ## Dynamic Programming
@@ -101,6 +103,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0036-valid-sudoku](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
+| [0048-rotate-image](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
