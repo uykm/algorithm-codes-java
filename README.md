@@ -14,6 +14,7 @@
 | [0048-rotate-image](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 | [0055-jump-game](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
+| [0073-set-matrix-zeroes](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0073-set-matrix-zeroes/) | Medium |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0134-gas-station](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0134-gas-station/) | Medium |
@@ -68,6 +69,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0012-integer-to-roman](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0012-integer-to-roman/) | Medium |
 | [0036-valid-sudoku](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
+| [0073-set-matrix-zeroes](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0073-set-matrix-zeroes/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0380-insert-delete-getrandom-o1/) | Medium |
 ## Design
 | Problem Name | Difficulty |
@@ -105,6 +107,7 @@
 | [0036-valid-sudoku](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0048-rotate-image](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
+| [0073-set-matrix-zeroes](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0073-set-matrix-zeroes/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
