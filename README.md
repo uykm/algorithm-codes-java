@@ -18,6 +18,7 @@
 | [0073-set-matrix-zeroes](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0073-set-matrix-zeroes/) | Medium |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
+| [0128-longest-consecutive-sequence](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0134-gas-station](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0134-gas-station/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0189-rotate-array](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
@@ -74,6 +75,7 @@
 | [0036-valid-sudoku](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0049-group-anagrams](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0073-set-matrix-zeroes/) | Medium |
+| [0128-longest-consecutive-sequence](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0380-insert-delete-getrandom-o1/) | Medium |
 ## Design
 | Problem Name | Difficulty |
@@ -119,4 +121,8 @@
 | ------- | ------- |
 | [0054-spiral-matrix](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 | [0289-game-of-life](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0289-game-of-life/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0128-longest-consecutive-sequence/) | Medium |
 <!---LeetCode Topics End-->
