@@ -12,6 +12,7 @@
 | [0036-valid-sudoku](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0045-jump-game-ii](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0048-rotate-image](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
+| [0049-group-anagrams](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0054-spiral-matrix](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 | [0055-jump-game](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0073-set-matrix-zeroes/) | Medium |
@@ -59,6 +60,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0015-3sum/) | Medium |
+| [0049-group-anagrams](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0274-h-index](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0274-h-index/) | Medium |
 ## Counting Sort
 | Problem Name | Difficulty |
@@ -70,6 +72,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0012-integer-to-roman](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0012-integer-to-roman/) | Medium |
 | [0036-valid-sudoku](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
+| [0049-group-anagrams](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0073-set-matrix-zeroes/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0380-insert-delete-getrandom-o1/) | Medium |
 ## Design
@@ -91,6 +94,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0006-zigzag-conversion](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0006-zigzag-conversion/) | Medium |
 | [0012-integer-to-roman](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0012-integer-to-roman/) | Medium |
+| [0049-group-anagrams](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
