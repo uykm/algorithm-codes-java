@@ -29,6 +29,7 @@
 | [0274-h-index](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0274-h-index/) | Medium |
 | [0289-game-of-life](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0289-game-of-life/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0380-insert-delete-getrandom-o1/) | Medium |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -59,6 +60,7 @@
 | [0055-jump-game](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0134-gas-station](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0134-gas-station/) | Medium |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -66,6 +68,7 @@
 | [0049-group-anagrams](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0056-merge-intervals](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0056-merge-intervals/) | Medium |
 | [0274-h-index](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0274-h-index/) | Medium |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 ## Counting Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
