@@ -103,6 +103,7 @@
 | [0006-zigzag-conversion](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0006-zigzag-conversion/) | Medium |
 | [0012-integer-to-roman](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0012-integer-to-roman/) | Medium |
 | [0049-group-anagrams](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
+| [0071-simplify-path](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0071-simplify-path/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
@@ -131,4 +132,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0128-longest-consecutive-sequence/) | Medium |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0071-simplify-path](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0071-simplify-path/) | Medium |
 <!---LeetCode Topics End-->
