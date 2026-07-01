@@ -22,6 +22,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0134-gas-station](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0134-gas-station/) | Medium |
+| [0150-evaluate-reverse-polish-notation](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0189-rotate-array](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0209-minimum-size-subarray-sum/) | Medium |
@@ -44,6 +45,7 @@
 | ------- | ------- |
 | [0012-integer-to-roman](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0012-integer-to-roman/) | Medium |
 | [0048-rotate-image](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
+| [0150-evaluate-reverse-polish-notation](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0189-rotate-array](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0380-insert-delete-getrandom-o1/) | Medium |
 ## Dynamic Programming
@@ -137,5 +139,6 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0071-simplify-path](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0071-simplify-path/) | Medium |
+| [0150-evaluate-reverse-polish-notation](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0155-min-stack](https://github.com/uykm/algorithm-codes-java/tree/main/LeetCode/Medium/0155-min-stack/) | Medium |
 <!---LeetCode Topics End-->
